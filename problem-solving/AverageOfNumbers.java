@@ -4,7 +4,7 @@ public class AverageOfNumbers {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the count of numbers : ");
         int n=sc.nextInt();
-        int[] arr=new int[]{};
+        int[] arr=new int[n];
         System.out.println("Numbers entered by user : ");
         int sum=0;
         for(int i=0;i<n;i++){       

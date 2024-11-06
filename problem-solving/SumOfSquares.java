@@ -8,9 +8,12 @@ public class SumOfSquares {
         int sum=0;
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
+        }
+        for(int i=0;i<n;i++){
             arr[i]=arr[i]*arr[i];
             sum=sum+arr[i];
         }
+        
         System.out.println(sum);
     }
 }
