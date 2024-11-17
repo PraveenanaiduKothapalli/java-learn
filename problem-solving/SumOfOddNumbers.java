@@ -16,7 +16,7 @@ public class SumOfOddNumbers {
         }
         for (int i = 0; i < n; i++) {
 
-            if (arr[i] % 2 == 1) {
+            if (arr[i] % 2 != 0) {
                 sum = sum + arr[i];
             }
         }
